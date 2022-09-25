@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: pink;
+  }
+  
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #FFFFF0;
+    color: pink;
+  }
+
+
+  /* .cat1 {
+    opacity: 0.6;
+    width:130px;
+    position: absolute;
+    top:62%;
+    left:57%;
+  }
+
+  .cat1:hover {
+    opacity: 1.0;
+  } 
+  
+
+
+  .cat2 {
+    opacity: 0.6;
+    width:180px;
+    position: absolute;
+    top:18%;
+    left:80%;
+  }
+
+  .cat2:hover {
+    opacity: 1.0;
+  }  
+
+
+  .cat3 {
+    opacity: 0.6;
+    width:220px;
+    position: absolute;
+    top:10%;
+    left:20%;
+  }
+
+  .cat3:hover {
+    opacity: 1.0;
+  }  
+
+
+  .cat4 {
+    opacity: 0.6;
+    width:222px;
+    position: absolute;
+    top:30%;
+    left:45%;
+  }
+
+  .cat4:hover {
+    opacity: 1.0;
+  }  
+
+
+  .cat5 {
+    opacity: 0.6;
+    width:230px;
+    position: absolute;
+    top:60%;
+    left:6%;
+  }
+
+  .cat5:hover {
+    opacity: 1.0;
+  }   */
+
+
+  .background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+
+  .cat1 {
+    position: relative; 
+    top: 12%;
+    left: 26%;
+    
+  }
+
+  .content1 {
+    display: none;
+  }
+
+  .cat1:hover .content1{
+    display: block;
+    position: absolute;
+    top: auto;
+    left: auto;
+    color: rgb(81, 71, 71);
+    font-size: .8em;
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .p1 {
+    background: transparent;
+    max-width:100px;
+    padding:10px;
+  
+    
+  }  
+  /* 完喇完喇完喇完喇完喇完喇 */
+
+  .cat2 {
+    position: relative; 
+    top: 5%;
+    left: 80%;
+
+  }
+  .content2 {
+    display: none;
+  }
+  .cat2:hover .content2{
+    display: block;
+    position: absolute;
+    top: auto;
+    left: auto;
+    color: rgb(81, 71, 71);
+    font-size: .8em;
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .p2 {
+    background: transparent;
+    max-width:160px;
+    padding:10px;
+  }  
+  /* 完喇完喇完喇完喇完喇完喇 */
+
+  .cat3 {
+    position: relative;
+    top: 0;
+    left: 52%; 
+
+  }
+  .content3 {
+    display: none;
+  }
+  .cat3:hover .content3{
+    display: block;
+    position: absolute;
+    color: rgb(81, 71, 71);
+    font-size: .8em;
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .p3 {
+    background: transparent;
+    max-width:160px;
+    padding:10px;
+  }  
+  /* 完喇完喇完喇完喇完喇完喇 */
+
+  .cat4 {
+    position: relative;
+    top: 10%;
+    left: 52%; 
+
+  }
+  .content4 {
+    display: none;
+  }
+  .cat4:hover .content4{
+    display: block;
+    position: absolute;
+    color: rgb(81, 71, 71);
+    font-size: .8em;
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .p4 {
+    background: transparent;
+    max-width:200px;
+    padding:10px;
+  }  
+  /* 完喇完喇完喇完喇完喇完喇 */
+  
+  .cat5 {
+    position: relative; 
+    bottom: 20%;
+    left: 10%;
+
+  }
+  .content5 {
+    display: none;
+  }
+  .cat5:hover .content5{
+    display: block;
+    position: absolute;
+    color: rgb(81, 71, 71);
+    font-size: .8em;
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .p5 {
+    background: transparent;
+    max-width:200px;
+    padding:10px;
+  }  
+  /* 完喇完喇完喇完喇完喇完喇 */
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: white;
+    text-align: center;
+  }

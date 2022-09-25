@@ -29,76 +29,11 @@
   }
 
 
-  /* .cat1 {
-    opacity: 0.6;
-    width:130px;
-    position: absolute;
-    top:62%;
-    left:57%;
-  }
-
-  .cat1:hover {
-    opacity: 1.0;
-  } 
-  
-
-
-  .cat2 {
-    opacity: 0.6;
-    width:180px;
-    position: absolute;
-    top:18%;
-    left:80%;
-  }
-
-  .cat2:hover {
-    opacity: 1.0;
-  }  
-
-
-  .cat3 {
-    opacity: 0.6;
-    width:220px;
-    position: absolute;
-    top:10%;
-    left:20%;
-  }
-
-  .cat3:hover {
-    opacity: 1.0;
-  }  
-
-
-  .cat4 {
-    opacity: 0.6;
-    width:222px;
-    position: absolute;
-    top:30%;
-    left:45%;
-  }
-
-  .cat4:hover {
-    opacity: 1.0;
-  }  
-
-
-  .cat5 {
-    opacity: 0.6;
-    width:230px;
-    position: absolute;
-    top:60%;
-    left:6%;
-  }
-
-  .cat5:hover {
-    opacity: 1.0;
-  }   */
-
 
   .background{
     width: 100vw;
     height: 100vh;
-    background-image: url(/images/map.png);
+    background-image: url(images/map.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
